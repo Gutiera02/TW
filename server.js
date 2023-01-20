@@ -50,7 +50,7 @@ app.use((error, req, res, next) => {
     res.status(404).json({ message: "Server error" });
 });
 
-app.listen(5101, async () => {
+app.listen(5462, async () => {
     console.log("Express web server running on port 5001");
     try {
         await sequelize.authenticate();
